@@ -1,0 +1,68 @@
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+ 
+        /*@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');*/
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+           background-color: #000;
+        }
+        
+        h1, h2 {
+            font-family: Montserrat;
+            position: relative;
+            font-size: 3em;
+            letter-spacing: 5px;
+            color: #0e3742;
+            text-transform: uppercase;
+            width: 100%;
+            text-align: center;
+            -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+            
+            line-height: 0.7em;
+            outline: none;
+            animation: animate 5s linear infinite;
+        }
+        input[type=text]{
+            padding: 10px;
+            margin-top: 50px;
+            border-radius: 25px;
+            outline: none;
+            color: white;
+           
+        }
+        input[type=submit]{
+            padding: 5px;
+            color: white;
+            border-radius: 15px;
+            margin-top: 25px;
+        }
+        @keyframes animate {
+            0%,18%,20%,50.1%,60%,80%,90.1%,92%
+            {
+                color: #0e3742;
+                text-shadow: none;
+            }
+            18.1%,20.1%,30%,50%,60.2%,65%,80.1%,90%,92.1%,100%
+            {
+                color: #fff;
+                text-shadow: 0 0 10px #ff073a,
+                0 0 20px #ff073a,
+                0 0 40px #ff073a,
+                0 0 80px #ff073a,
+                0 0 160px #ff073a;
+            }
+        }
+        
+        
+       
